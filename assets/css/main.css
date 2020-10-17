@@ -1542,6 +1542,8 @@ input, select, textarea {
 	section,
 	article {
 		margin-bottom: 3em;
+		position:static;
+		z-index: -1;
 	}
 
 	section > :last-child,
@@ -2209,7 +2211,8 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		margin-top: 30px;
+		margin-top: 35px;
+		margin-bottom: 0;
 		background-image: url("images/overlay.png"), url("../../images/header.png");
 		background-size: auto, cover;
 		background-position: top left, center center;
