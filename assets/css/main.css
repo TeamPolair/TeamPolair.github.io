@@ -111,6 +111,9 @@ input, select, textarea {
 		background-color: #000000;
 		overflow: hidden;
 		margin-bottom: 0;
+		position: fixed;
+		top: 0;
+		width: 100%;
 	}
 	.topnav a {
 		color: #E0E0E0;
@@ -119,7 +122,6 @@ input, select, textarea {
 		padding: 14px 16px;
 		text-decoration: none;
 		font-size: 17px;
-		
 	}
 	.topnav a:hover {
 		background-color: #E0E0E0;
@@ -2247,7 +2249,7 @@ input, select, textarea {
 			background: #454544;
 			text-align: center;
 			padding: 5em 0 5em 0;
-			margin: 0;
+			margin: 30px;
 		}
 
 			.main > header h2 {
