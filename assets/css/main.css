@@ -110,6 +110,7 @@ input, select, textarea {
 	.topnav {
 		background-color: #000000;
 		overflow: hidden;
+		margin-bottom: 0;
 	}
 	.topnav a {
 		color: #E0E0E0;
