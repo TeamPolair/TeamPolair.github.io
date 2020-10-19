@@ -209,6 +209,10 @@ input, select, textarea {
 	.dark a {
 		color: #fff;
 		border-bottom-color: rgba(255, 255, 255, 0.5);
+		opacity: 0;
+		animation-name: fade-in;
+		animation-duration: 2s;
+		animation-fill-mode: forwards;
 	}
 
 		.dark a:hover {
