@@ -187,6 +187,8 @@ input, select, textarea {
 		animation-duration: 2s;
 		animation-fill-mode: forwards;
 	}
+	
+	.fadeIn.triggeredCSS3	{animation-name: fade-in;animation-duration:2s;animation-fill-mode: forwards;}
 
 	em, i {
 		font-style: italic;
