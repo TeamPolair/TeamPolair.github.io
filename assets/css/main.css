@@ -2254,6 +2254,8 @@ input, select, textarea {
 			font-size: 3em;
 			line-height: 0.25em;
 			margin-bottom: 0;
+			margin-left: 50px;
+			text-align: left;
 		}
 
 		#header header p {
@@ -2263,10 +2265,14 @@ input, select, textarea {
 			font-size: 2em;
 			line-height: 1.5em;
 			text-align: center;
+			margin-left: 50px;
+			text-align: left;
 		}
 
 		#header footer {
 			padding-top: 1.5em;
+			margin-left: 50px;
+			text-align: left;
 		}
 
 /* Main Sections */
