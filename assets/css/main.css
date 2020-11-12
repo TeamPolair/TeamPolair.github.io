@@ -109,6 +109,7 @@ input, select, textarea {
 			transition: none !important;
 		}
 	/* Top Navigation Class */
+	
 	.topnav {
 		background-color: #000000;
 		overflow: hidden;
@@ -125,6 +126,7 @@ input, select, textarea {
 	.topnav b img {
 		height: 45px;
 		width: auto;
+		top: 10px;
 		padding: 0px 16px;
 	}
 	.topnav a {
