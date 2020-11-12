@@ -118,6 +118,10 @@ input, select, textarea {
 		width: 100%;
 		z-index: 100;
 	}
+	.topnav b {
+		float: right;
+		padding: 14px 16px;
+	}
 	.topnav a {
 		color: #E0E0E0;
 		text-align: center;
@@ -179,8 +183,7 @@ input, select, textarea {
 	}
 
 	.dark strong, .dark b {
-		color: #fff;
-		color: rgba(255, 255, 255, 0.85);
+		color: inherit;
 	}
 	
 /* Animation section*/
@@ -2229,7 +2232,7 @@ input, select, textarea {
 		}
 
 		.icon:before {
-			line-height: inhreit;
+			line-height: inherit; /*right change?*/
 		}
 
 		.icon > .label {
@@ -2251,6 +2254,7 @@ input, select, textarea {
 		margin-top: 35px;
 		margin-bottom: 0;
 		background-image: url("images/overlay.png"), url("../../images/header.png");
+		background-attachment: fixed;
 		background-size: auto, cover;
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
@@ -2310,6 +2314,7 @@ input, select, textarea {
 
 			.main > header p {
 				margin: 2em 0 0 0;
+				font-weight: 300;
 				padding: 0;
 				text-align: center;
 			}
