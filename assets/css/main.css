@@ -122,6 +122,10 @@ input, select, textarea {
 		float: right;
 		padding: 14px 16px;
 	}
+	.topnav b img {
+		height: 16px;
+		width: auto;
+	}
 	.topnav a {
 		color: #E0E0E0;
 		text-align: center;
