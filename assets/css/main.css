@@ -197,6 +197,10 @@ input, select, textarea {
 		to {opacity: 100;}
 	}
 	
+	.hidden {
+		opacity: 0;
+	}
+	
 	.fade-in-element {
 		opacity: 0;
 		animation-name: fade-in;
