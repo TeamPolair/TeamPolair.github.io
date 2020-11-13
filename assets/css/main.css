@@ -196,7 +196,14 @@ input, select, textarea {
 		from {opacity: 0;}
 		to {opacity: 100;}
 	}
-
+	
+	.fade-in-element {
+		opacity: 0;
+		animation-name: fade-in;
+		animation-duration: 2s;
+		animation-fill-mode:forwards;
+	}
+	
 	.dark anim {
 		color: #fff;
 		color: rgba(255, 255, 255, 0.85);
