@@ -181,9 +181,10 @@ input, select, textarea {
 		font-size: 200px;
 	}
 		.dark h1 img {
-			width: 3em;
+			width: 1em;
 			height: auto;
 		}
+
 	.dark h3 {
 		font-family: "Ropa Sans";
 		font-sizeL 30px;
