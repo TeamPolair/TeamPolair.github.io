@@ -2287,7 +2287,7 @@ input, select, textarea {
 		position: relative;
 		margin-top: 55px;
 		margin-bottom: 0;
-		background-image: url("images/overlay.png"), url("../../images/header.png");
+		background-image: url("images/overlay.png"), url("../../images/VideoWork.jpg");
 		background-attachment: fixed;
 		background-size: auto, cover;
 		background-position: top left, center center;
