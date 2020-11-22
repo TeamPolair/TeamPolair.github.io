@@ -181,6 +181,7 @@ input, select, textarea {
 		font-size: 200px;
 	}
 		.dark h1 img {
+			display: block;
 			width: 1em;
 			height: auto;
 			text-align: center;
