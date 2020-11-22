@@ -191,7 +191,15 @@ input, select, textarea {
 
 	.dark h3 {
 		font-family: "Ropa Sans";
-		font-sizeL 30px;
+		font-size: 30px;
+	}
+	.dark h4 {
+		font-family: "Ropa Sans";
+		font-size: 30px;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		display: block'
 	}
 
 	strong, b {
