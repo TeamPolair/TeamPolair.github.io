@@ -111,7 +111,7 @@ input, select, textarea {
 	/* Top Navigation Class */
 	
 	.topnav {
-		background-color: #000000;
+		background-color: transparent;
 		overflow: hidden;
 		margin-bottom: 0;
 		position: fixed;
@@ -144,7 +144,15 @@ input, select, textarea {
 	.topnav a.active {
 		background-color: #454544;
 	}
-	
+	.topnav.scrolled {
+		background-color: #000000;
+		transition: background-color 200ms linear;
+	}
+	.topnav.unscrolled {
+		background-color: transparent;
+		transition: background-color 200ms linear;
+	}
+
 	/* Dark class, used in most of our website */
 	.dark {
 		color: #aaa;
@@ -216,6 +224,15 @@ input, select, textarea {
 		to {opacity: 100;}
 	}
 	
+	@keyframes topnav-color-scrolled {
+		from {background-color: transparent;}
+		to {background-color: #000000;}
+	}
+	@keyframes topnav-color-unscrolled {
+		from {background-color: #000000;}
+		to {background-color: transparent;}
+	}
+
 	.hidden {
 		opacity: 0;
 	}
@@ -2293,7 +2310,8 @@ input, select, textarea {
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		padding: 9em 0 14em 0;
-		text-align: center;
+		text-align: right;
+		margin-right: 50px;
 		color: #fff;
 	}
 
@@ -2303,8 +2321,6 @@ input, select, textarea {
 			font-size: 3em;
 			line-height: 0.25em;
 			margin-bottom: 0;
-			margin-left: 50px;
-			text-align: left;
 		}
 
 		#header header p {
@@ -2313,15 +2329,12 @@ input, select, textarea {
 			padding: 0;
 			font-size: 2em;
 			line-height: 1.5em;
-			text-align: center;
-			margin-left: 50px;
-			text-align: left;
 		}
 
 		#header footer {
 			padding-top: 1.25em;
 			margin-left: 50px;
-			text-align: left;
+			
 		}
 
 /* Main Sections */
