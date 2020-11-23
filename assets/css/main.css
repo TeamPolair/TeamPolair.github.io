@@ -111,6 +111,7 @@ input, select, textarea {
 	/* Top Navigation Class */
 	
 	.topnav {
+		background-color: transparent;
 		overflow: hidden;
 		margin-bottom: 0;
 		position: fixed;
