@@ -2294,6 +2294,7 @@ input, select, textarea {
 		background-repeat: repeat, no-repeat;
 		padding: 9em 0 14em 0;
 		text-align: center;
+		margin-right: 50px;
 		color: #fff;
 	}
 
@@ -2303,8 +2304,6 @@ input, select, textarea {
 			font-size: 3em;
 			line-height: 0.25em;
 			margin-bottom: 0;
-			margin-left: 50px;
-			text-align: left;
 		}
 
 		#header header p {
@@ -2313,9 +2312,6 @@ input, select, textarea {
 			padding: 0;
 			font-size: 2em;
 			line-height: 1.5em;
-			text-align: center;
-			margin-left: 50px;
-			text-align: left;
 		}
 
 		#header footer {
