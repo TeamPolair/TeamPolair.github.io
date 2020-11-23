@@ -111,7 +111,7 @@ input, select, textarea {
 	/* Top Navigation Class */
 	
 	.topnav {
-		background-color: #000000;
+		background-color: transparent;
 		overflow: hidden;
 		margin-bottom: 0;
 		position: fixed;
@@ -144,7 +144,15 @@ input, select, textarea {
 	.topnav a.active {
 		background-color: #454544;
 	}
-	
+	.topnav.scrolled {
+		background-color: #000000;
+		transition: background-color 200ms linear;
+	}
+	.topnav.unscrolled {
+		background-color: transparent;
+		transition: background-color 200ms linear;
+	}
+
 	/* Dark class, used in most of our website */
 	.dark {
 		color: #aaa;
@@ -216,6 +224,15 @@ input, select, textarea {
 		to {opacity: 100;}
 	}
 	
+	@keyframes topnav-color-scrolled {
+		from {background-color: transparent;}
+		to {background-color: #000000;}
+	}
+	@keyframes topnav-color-unscrolled {
+		from {background-color: #000000;}
+		to {background-color: transparent;}
+	}
+
 	.hidden {
 		opacity: 0;
 	}
