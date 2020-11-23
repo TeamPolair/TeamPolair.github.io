@@ -145,12 +145,12 @@ input, select, textarea {
 		background-color: #454544;
 	}
 	.topnav.scrolled {
-		background-color: #000000 !important;
-		transition: topnav-color-scrolled 200ms linear;
+		background-color: #000000;
+		transition: background-color 200ms linear;
 	}
 	.topnav.unscrolled {
 		background-color: transparent;
-		transition: topnav-color-unscrolled 200ms linear;
+		transition: background-color 200ms linear;
 	}
 
 	/* Dark class, used in most of our website */
@@ -2285,7 +2285,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		margin-top: 55px;
+		margin-top: 0;
 		margin-bottom: 0;
 		background-image: url("images/overlay.png"), url("../../images/header.png");
 		background-attachment: fixed;
