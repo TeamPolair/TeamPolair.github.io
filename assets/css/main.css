@@ -144,7 +144,15 @@ input, select, textarea {
 	.topnav a.active {
 		background-color: #454544;
 	}
-	
+	.topnav.scrolled {
+		background-color: #000000 !important;
+		transition: background-color 200ms linear;
+	}
+	.topnav.unscrolled {
+		background-color: transparent;
+		transition: background-color 200ms linear;
+	}
+
 	/* Dark class, used in most of our website */
 	.dark {
 		color: #aaa;
