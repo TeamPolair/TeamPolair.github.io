@@ -2302,7 +2302,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		margin-top: 55px;
+		margin-top: 0px;
 		margin-bottom: 0;
 		background-image: url("images/overlay.png"), url("../../images/design/DoubleRender.png");
 		background-attachment: fixed;
