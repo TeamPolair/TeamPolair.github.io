@@ -2303,7 +2303,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		margin-top: 55px;
+		margin-top:0;
 		margin-bottom: 0;
 		background-image: url("images/overlay.png"), url("../../images/VideoWork.jpg");
 		background-attachment: fixed;
@@ -2312,7 +2312,7 @@ input, select, textarea {
 		background-repeat: repeat, no-repeat;
 		padding: 9em 0 14em 0;
 		text-align: right;
-		margin-right: 50px;
+		margin-right: 0;
 		color: #fff;
 	}
 
@@ -2322,6 +2322,7 @@ input, select, textarea {
 			font-size: 3em;
 			line-height: 0.25em;
 			margin-bottom: 0;
+			margin-right: 1em;
 		}
 
 		#header header p {
@@ -2330,6 +2331,7 @@ input, select, textarea {
 			padding: 0;
 			font-size: 2em;
 			line-height: 1.5em;
+			margin-right: 1.5em;
 		}
 
 		#header footer {
