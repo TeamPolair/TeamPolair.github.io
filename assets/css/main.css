@@ -191,7 +191,7 @@ input, select, textarea {
 	.dark h3 {
 		font-family: "Ropa Sans";
 		font-weight: 400;
-		font-size: 50px;
+		font-size: 50px !important;
 	}
 
 	strong, b {
