@@ -2590,6 +2590,14 @@ input, select, textarea {
 			#header {
 				padding: 6em 20px 6em 20px;
 			}
+				#header header h1 {
+					
+					text-align: center;
+				}	
+				#header header p {
+					margin-top: 1em;
+					text-align: center;
+				}
 
 				#header > header {
 					padding: 0 1em 0 1em;
