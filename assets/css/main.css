@@ -119,6 +119,7 @@ input, select, textarea {
 		width: 100%;
 		z-index: 100;
 		font-size: 18px;
+		text-decoration: none;
 	}
 	.topnav b {
 		float: right;
