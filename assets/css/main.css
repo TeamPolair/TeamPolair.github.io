@@ -148,9 +148,10 @@ input, select, textarea {
 		background-color: #000000;
 		transition: background-color 200ms linear;
 	}
-	.topnav.unscrolled {
-		background-color: transparent;
-		transition: background-color 200ms linear;
+	@media screen and (max-width: 736px) {
+		.topnav {
+			font-size: 9px;
+		}
 	}
 
 	/* Dark class, used in most of our website */
@@ -2596,6 +2597,10 @@ input, select, textarea {
 				}	
 				#header header p {
 					margin-top: 1em;
+					margin-left: auto;
+					text-align: center;
+				}
+				#header footer {
 					margin-left: auto;
 					text-align: center;
 				}
