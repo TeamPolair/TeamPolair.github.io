@@ -2591,11 +2591,12 @@ input, select, textarea {
 				padding: 6em 20px 6em 20px;
 			}
 				#header header h1 {
-					
+					margin-left: auto;
 					text-align: center;
 				}	
 				#header header p {
 					margin-top: 1em;
+					margin-left: auto;
 					text-align: center;
 				}
 
