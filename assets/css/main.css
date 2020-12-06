@@ -120,6 +120,7 @@ input, select, textarea {
 		z-index: 100;
 		font-size: 18px;
 		text-decoration: none;
+		transition: background-color 200ms linear;
 	}
 	.topnav b {
 		float: right;
@@ -147,7 +148,7 @@ input, select, textarea {
 	}
 	.topnav.scrolled {
 		background-color: #000000;
-		transition: background-color 200ms linear;
+		
 	}
 	@media screen and (max-width: 736px) {
 		.topnav {
