@@ -4,7 +4,7 @@
         $scroll = $(window).scrollTop(),
         $wh = window.innerHeight / 2;
 
-    if ($scroll > $wh) {
+    if ($scroll > 0) {
         $topNav.addClass("scrolled");
     } else {
         $topNav.removeClass("scrolled");
